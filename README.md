@@ -20,20 +20,18 @@ df.tail()
 df.head()
 ```
 *output*
-```
-2
-```
+![1-1](./images/1-1.png)
 추가 ⭕
 ```python
 from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
-a = 3
-b = 2
-a + b
-a
-b
+InteractiveShell.ast_node_interactivity = "all"  
+df = pd.DataFrame({ 'name': ['김태훈','이유정','장서희'],
+                    'eng':  [90,80,70],
+                    'math': [77,66,88]  })
+df
+df.tail()
+df.head()
 ```
 *output*
-```
-2
-```
+![1-2](./images/1-2.png)
+
